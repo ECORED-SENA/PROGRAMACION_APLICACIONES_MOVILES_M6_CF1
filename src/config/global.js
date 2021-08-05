@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Arquitectura de aplicaciones móviles nativas.',
+    componenteFormativo: 'Arquitectura de aplicaciones móviles nativas',
     descripcionCurso:
       'En este componente formativo se abordan los conceptos básicos de las aplicaciones móviles nativas, los cuales servirán para identificar los tipos de metodologías usadas en el desarrollo móvil, en plataformas nativas, en entornos de desarrollo y su configuración.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
@@ -24,7 +24,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '1',
         titulo:
-          'Enfoque metodológico para el desarrollo de aplicaciones móviles nativas.',
+          'Enfoque metodológico para el desarrollo de aplicaciones móviles nativas',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -32,7 +32,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Plataformas de desarrollo móvil nativas.',
+        titulo: 'Plataformas de desarrollo móvil nativas',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -40,13 +40,13 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Entornos de desarrollo.',
+        titulo: 'Entornos de desarrollo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Android Studio.',
+            titulo: 'Android Studio',
             hash: 't_3_1',
           },
           {
@@ -58,13 +58,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Arquitectura.',
+            titulo: 'Arquitectura',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Versiones.',
+            titulo: 'Versiones',
             hash: 't_3_4',
           },
         ],
@@ -73,7 +73,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Instalación y configuración entorno android studio.',
+        titulo: 'Instalación y Configuración Entorno Android Studio',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -81,31 +81,31 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Componentes de una aplicación android.',
+        titulo: 'Componentes de una aplicación android',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '5.1',
-            titulo: 'Actividades.',
+            titulo: 'Actividades',
             hash: 't_5_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '5.2',
-            titulo: 'Servicios.',
+            titulo: 'Servicios',
             hash: 't_5_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '5.3',
-            titulo: 'Proveedores de contenido.',
+            titulo: 'Proveedores de contenido',
             hash: 't_5_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '5.4',
-            titulo: 'Receptores de emisiones.',
+            titulo: 'Receptores de emisiones',
             hash: 't_5_4',
           },
         ],
@@ -180,7 +180,13 @@ export default {
   glosario: [
     {
       termino: 'Dalvik',
-      significado: 'Máquina virtual de Android',
+      significado: 'Máquina virtual de <i>Android</i>',
+      termHTML: '<em>Dalvik</em>',
+    },
+    {
+      termino: 'Dalvik2',
+      significado: 'Máquina virtual de <i>Android</i>',
+      termHTML: 'Dalvik2',
     },
     {
       termino: 'Manifiesto ágil',
@@ -294,35 +300,76 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Zulema Yidney Leon Escobar ',
-        cargo: 'Experto Temático',
-        centro: 'Centro de Teleinformática y Producción Industrial',
+        nombre: 'Maria Camila Garcia Santamaria ',
+        cargo: 'Líder del Equipo',
+        centro: 'Dirección General',
       },
     ],
     contenidoInstruccional: [
       {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Zulema Yidney Leon Escobar',
+        cargo: 'Experta temática',
+        centro:
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de diseño y metrología - Regional Distrito capital',
+      },
+      {
         nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Evaluadora Instruccional',
-        centro: 'Centro de Gestión Industrial',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de Gestión Industrial  - Regional Santander',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Edición y corrección de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
       },
     ],
     desarrolloProducto: [
       {
-        nombre: 'María Inés Machado López',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Diseño y Metrología',
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda ',
-        cargo: 'Edición y corrección de estilo',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
+        nombre: 'Leyson Fabián Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Sarmiento Betancourth',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

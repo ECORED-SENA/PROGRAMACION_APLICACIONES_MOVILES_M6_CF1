@@ -6,14 +6,14 @@
     .titulo-principal
       .titulo-principal__numero
         span 4
-      h1 Sistemas operativos móviles
+      h1 Instalación y Configuración Entorno <i>Android Studio</i>
     figure.mt-4 
       img(src="@/assets/template/tema-4-1.png", alt="Texto que describa la imagen")
     p.mt-5 Para la instalación lo primero que debemos tener en cuenta son los requisitos mínimos que debe tener el equipo. Para un mejor rendimiento, y que el emulador funcione correctamente, se necesita un buen equipo de trabajo que cuente con las siguientes propiedades recomendadas para cada sistema operativo..
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 12
-        p Requerimientos de sistema para instalación de Android Studio
+        p Requerimientos de sistema para instalación de <i>Android Studio</i>
     table.mt-4.text-center.no-border
       thead
         
@@ -30,14 +30,14 @@
               img(src="@/assets/template/tema-4-4.png", alt="Texto que describa la imagen").w-50.margin-0-auto
         tr
           td.bg-primario.rounded-izq-bot
-            p 64-bit Microsoft® Windows® 8/10
+            p 64-bit Microsoft® <i>Windows®</i> 8/10
             p 8 GB RAM or more
-            p 8 GB of available disk space minimum (IDE + Android SDK + Android Emulator)
+            p 8 GB of available disk space minimum <i>(IDE + Android SDK + Android Emulator)</i>
             p 1280 x 800 minimum screen resolution
           td.bg-aguamarina
             p MacOS® 10.14 (Mojave) or higher
             p 8 GB RAM or more
-            p 8 GB of available disk space minimum (IDE + Android SDK + Android Emulator)
+            p 8 GB of available disk space minimum <i>(IDE + Android SDK + Android Emulator)</i>
             p 1280 x 800 minimum screen resolution
           td.bg-azul-claro.rounded-der-bot
             p Any 64-bit Linux distribution that supports Gnome, KDE, or Unity DE; GNU C Library (glibc) 2.31 or later.
@@ -52,7 +52,7 @@
               figure
                 img(src="@/assets/template/tema-4-5.svg", alt="Texto que describa la imagen")
             .col-12.col-lg-9
-              p Además de estos requerimientos del sistema, para una instalación exitosa y un funcionamiento correcto del software se debe tener en cuenta otros elementos. Dependiendo del sistema operativo se utilice, ya sea Ubuntu, Linux, Windows 10 o Mac OS, se necesita seguir unas instrucciones específicas para cada uno de ellos, podrás encontrar información al respecto en el siguiente enlace.
+              p Además de estos requerimientos del sistema, para una instalación exitosa y un funcionamiento correcto del <i>software</i> se debe tener en cuenta otros elementos. Dependiendo del sistema operativo se utilice, ya sea Ubuntu, Linux, Windows 10 o Mac OS, se necesita seguir unas instrucciones específicas para cada uno de ellos, podrás encontrar información al respecto en el siguiente enlace.
     .row.mt-5
       .col-10.offset-1
         .tarjeta.color-primario.p-3.mb-5.bg-azul-degradado
@@ -63,7 +63,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-1 Instalación
-                  p.text-small.p-0 La instalación de Android en este componente se realizará para Windows, para más información de cómo instalar en Mac, Linux, o Chrome sigue el enlace
+                  p.text-small.p-0 La instalación de <i>Android</i> en este componente se realizará para <i>Windows</i>, para más información de cómo instalar en Mac, Linux, o Chrome sigue el enlace
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://developer.android.com/studio/install?hl=es-419" target="_blank")
                     span.text-small Enlace web
@@ -79,7 +79,7 @@
                   .lista-ol--cuadro__vineta.primario
                     span 1
                   .h4.m-0 Descargar e instalar Android Studio
-                    p.m-0 Ingresa a la página oficial Android developers y selecciona la opción Android Studio o sigue el siguiente enlace:
+                    p.m-0 Ingresa a la página oficial <i>Android developers</i> y selecciona la opción <i>Android Studio</i> o sigue el siguiente enlace:
                 a.anexo.mb-lg-0(href="https://developer.android.com/studio?hl=es-419" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
@@ -88,7 +88,7 @@
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 13
-        p Descarga de Android Studio
+        p Descarga de <i>Android Studio</i>
         figure.mt-4
           img(src="@/assets/template/tema-4-7.png", alt="Texto que describa la imagen")
     .row.mt-5
@@ -116,7 +116,7 @@
                 li 
                   .lista-ol--cuadro__vineta.primario
                     span 3
-                  .h4.m-0 Seleccionar la opción de “He leído y acepto los términos…”  y clic en descargar Android Studio.
+                  .h4.m-0 Seleccionar la opción de “He leído y acepto los términos…”  y clic en descargar <i>Android Studio.</i>
     .row.mt-5 
       .col-10.offset-1
         .cajon.color-primario.p-4.mb-4.bg-primario-op50
@@ -130,7 +130,7 @@
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 15
-        p Asistente de Instalación Android Studio
+        p Asistente de Instalación <i>Android Studio</i>
         figure.mt-4
           img(src="@/assets/template/tema-4-9.png", alt="Texto que describa la imagen")
     .row.mt-5 
@@ -142,7 +142,7 @@
                 li.mb-0 
                   .lista-ol--cuadro__vineta.acento-botones
                     span 5
-                  .h4.m-0 En este paso muestra la ruta donde quedará instalado Android Studio clic en Next.
+                  .h4.m-0 En este paso muestra la ruta donde quedará instalado <i>Android Studio</i> clic en <i>Next</i>.
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 16
@@ -158,18 +158,18 @@
                 li.mb-0 
                   .lista-ol--cuadro__vineta.acento-botones
                     span 6
-                  .h4.m-0 En este paso del asistente se deben seleccionar los componentes a instalar. Dejar marcados, en este caso dos: el propio IDE Android Studio y un Virtual Device.
+                  .h4.m-0 En este paso del asistente se deben seleccionar los componentes a instalar. Dejar marcados, en este caso dos: el propio <i>IDE Android Studio</i> y un <i>Virtual Device</i>.
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 17
         p Asistente de Instalación
         figure.mt-4
           img(src="@/assets/template/tema-4-11.png", alt="Texto que describa la imagen")
-    p.mt-5 Para el resto de pasos de este asistente inicial, se deben aceptar sin modificar ninguna opción por defecto, hasta llegar al último paso donde se selecciona la opción «Start Android Studio» y pulsar el botón «Finish» de forma que se iniciará automáticamente la aplicación.
+    p.mt-5 Para el resto de pasos de este asistente inicial, se deben aceptar sin modificar ninguna opción por defecto, hasta llegar al último paso donde se selecciona la opción <i>«Start Android Studio»</i> y pulsar el botón <i>«Finish»</i> de forma que se iniciará automáticamente la aplicación.
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 18
-        p Asistente de Instalación Iniciar Android Studio
+        p Asistente de Instalación Iniciar <i>Android Studio</i>
         figure.mt-4
           img(src="@/assets/template/tema-4-12.png", alt="Texto que describa la imagen")
     .row.mt-5
@@ -191,7 +191,7 @@
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 20
-        p Asistente de Instalación Wizard Android Studio
+        p Asistente de Instalación <i>Wizard Android Studio</i>
         figure.mt-4
           img(src="@/assets/template/tema-4-14.png", alt="Texto que describa la imagen")
     .row.mt-5 
@@ -203,7 +203,7 @@
                 li.mb-0 
                   .lista-ol--cuadro__vineta.acento-botones
                     span 8
-                  .h4.m-0 Clic en «Next»
+                  .h4.m-0 Clic en <i>«Next»</i>
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 21
@@ -219,7 +219,7 @@
                 li.mb-0 
                   .lista-ol--cuadro__vineta.acento-botones
                     span 9
-                  .h4.m-0 Para el tipo de configuración marcar la opción &#60;&#60;Custom&#62;&#62; (Personalizado) y clic en Next
+                  .h4.m-0 Para el tipo de configuración marcar la opción <i>&#60;&#60;Custom&#62;&#62;</i> (Personalizado) y clic en <i>Next</i>
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 22
@@ -235,7 +235,7 @@
                 li.mb-0 
                   .lista-ol--cuadro__vineta.acento-botones
                     span 10
-                  .h4.m-0 Seleccionar el tema visual del gusto, para este ejemplo se selecciona Darcula (Oscuro)
+                  .h4.m-0 Seleccionar el tema visual del gusto, para este ejemplo se selecciona <i>Darcula</i> (Oscuro)
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 23
@@ -251,7 +251,7 @@
                 li.mb-0 
                   .lista-ol--cuadro__vineta.acento-botones
                     span 11
-                  .h4.m-0 En la siguiente pantalla del asistente marcar los componentes adicionales a instalar. En el campo «Android SDK Location» se indica la ruta donde se desea instalar el SDK de Android
+                  .h4.m-0 En la siguiente pantalla del asistente marcar los componentes adicionales a instalar. En el campo <i>«Android SDK Location»</i> se indica la ruta donde se desea instalar el <i>SDK</i> de <i>Android</i>
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 24
@@ -267,11 +267,11 @@
                 li.mb-0 
                   .lista-ol--cuadro__vineta.acento-botones
                     span 12
-                  .h4.m-0 Indicar la cantidad de memoria que se utilizará para el emulador y clic en Next 
+                  .h4.m-0 Indicar la cantidad de memoria que se utilizará para el emulador y clic en <i>Next</i> 
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 25
-        p Bienvenida Android Studio 
+        p Bienvenida <i>Android Studio</i> 
         figure.mt-4
           img(src="@/assets/template/tema-4-19.png", alt="Texto que describa la imagen")
     .row.mt-5 
@@ -283,47 +283,47 @@
                 li.mb-0 
                   .lista-ol--cuadro__vineta.acento-botones
                     span 13
-                  .h4.m-0 Tras finalizar el asistente de inicio aparecerá la pantalla de bienvenida de Android Studio para este ejemplo en su versión 4.2.1
+                  .h4.m-0 Tras finalizar el asistente de inicio aparecerá la pantalla de bienvenida de <i>Android Studio</i> para este ejemplo en su versión 4.2.1
     .row.mt-5
       .col-10.offset-1  
         .cajon.color-acento-botones.p-4.bg-acento-botones-op50
           .row 
             .h4 SDK Manager
-            p El SDK Manager permite gestionar las versiones de Android que se encuentran instaladas, así como otras herramientas que se necesitan para el desarrollo de las aplicaciones móviles.
-            p El siguiente paso será revisar los componentes que se han instalado del SDK de Android Studio e instalar/actualizar componentes adicionales si fuera necesario para el desarrollo de las aplicaciones.
-            p En la pantalla de inicio de Android Studio seleccione la opción Configure y haga clic en SDK Manager.
+            p El <i>SDK Manager</i> permite gestionar las versiones de <i>Android</i> que se encuentran instaladas, así como otras herramientas que se necesitan para el desarrollo de las aplicaciones móviles.
+            p El siguiente paso será revisar los componentes que se han instalado del <i>SDK</i> de <i>Android Studio</i> e instalar/actualizar componentes adicionales si fuera necesario para el desarrollo de las aplicaciones.
+            p En la pantalla de inicio de <i>Android Studio</i> seleccione la opción Configure y haga clic en <i>SDK Manager</i>.
     .row.mt-5
       .col-6.offset-1
         .h4 Figura 26
-        p SDK Manager 
+        p <i>SDK Manager</i> 
         figure.mt-4
           img(src="@/assets/template/tema-4-20.png", alt="Texto que describa la imagen")
     .row.mt-5
       .col-6.offset-1
         .h4 Figura 27
-        p SDK Platforms 
+        p <i>SDK Platforms</i> 
         figure.mt-4
           img(src="@/assets/template/tema-4-21.png", alt="Texto que describa la imagen")
-    p.mt-5 En el Manager se encuentran componentes disponibles agrupados en dos pestañas principales: SDK Platforms y SDK Tools.
+    p.mt-5 En el <i>Manager</i> se encuentran componentes disponibles agrupados en dos pestañas principales: <i>SDK Platforms</i> y <i>SDK Tools</i>.
     .row.mt-5
       .col-10.offset-1  
         .cajon.color-acento-botones.p-4.bg-acento-botones-op50
           .row 
             .h4 SDK Platforms
-            p Permite seleccionar los componentes y librerías necesarias para desarrollar sobre cada una de las versiones de Android, por ejemplo, si se quiere probar la aplicación en un dispositivo con Android 8 y Android 10 se tiene que descargar las plataformas que en este caso corresponden a la 26 y 29. 
-            p.mt-3 Para ver los subcomponentes de cada plataforma seleccionar la opción «Show Package Details» situada en la parte inferior de la ventana. 
-            p Para cada versión de Android que se tenga instalada se debe tener al menos los dos elementos siguientes:
+            p Permite seleccionar los componentes y librerías necesarias para desarrollar sobre cada una de las versiones de <i>Android</i>, por ejemplo, si se quiere probar la aplicación en un dispositivo con <i>Android 8</i> y <i>Android 10</i> se tiene que descargar las plataformas que en este caso corresponden a la 26 y 29. 
+            p.mt-3 Para ver los subcomponentes de cada plataforma seleccionar la opción <i>«Show Package Details»</i> situada en la parte inferior de la ventana. 
+            p Para cada versión de <i>Android</i> que se tenga instalada se debe tener al menos los dos elementos siguientes:
             ul.lista-ul.mt-4
               li 
                 i.fas.fa-angle-right.primario
-                | Android SDK Platform
+                | <i>Android SDK Platform</i>
               li.mt-2
                 i.fas.fa-angle-right.primario
-                | Google APIs Intel x86 Atom System Image  
+                | Google <i>APIs</i> Intel x86 Atom System Image  
     .row.mt-5
       .col-6.offset-1
         .h4 Figura 28
-        p SDK Tools 
+        p <i>SDK Tools</i> 
         figure.mt-4
           img(src="@/assets/template/tema-4-22.png", alt="Texto que describa la imagen")
     .row.mt-5
@@ -331,18 +331,18 @@
         .cajon.color-acento-botones.p-4.bg-acento-botones-op50
           .row 
             .h4 SDK Tools
-            p Son componentes para el SDK que incluyen herramientas para desarrollo y depuración     Los indispensables por el momento (que ya deberían aparecer instalados por defecto) serán los siguientes:
+            p Son componentes para el <i>SDK</i> que incluyen herramientas para desarrollo y depuración     Los indispensables por el momento (que ya deberían aparecer instalados por defecto) serán los siguientes:
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-angle-right.primario
-                | Android SDK Build-Tools
+                | <i>Android SDK Build-Tools</i>
               li.mt-2
                 i.fas.fa-angle-right.primario
-                | Android SDK Platform-Tools
+                | <i>Android SDK Platform-Tools</i>
               li.mt-2
                 i.fas.fa-angle-right.primario
-                | Android Emulator
-            p.mt-3 Con estos pasos ya se tendría configurado el Android Studio para dar inicio al desarrollo de las aplicaciones.
+                | <i>Android Emulator</i>
+            p.mt-3 Con estos pasos ya se tendría configurado el <i>Android Studio</i> para dar inicio al desarrollo de las aplicaciones.
 
 
 
