@@ -46,7 +46,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Android Studio',
+            titulo: '<em>Android Studio</em>',
             hash: 't_3_1',
           },
           {
@@ -73,7 +73,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Instalación y Configuración Entorno Android Studio',
+        titulo: 'Instalación y Configuración Entorno <em>Android Studio</em>',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -81,7 +81,7 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Componentes de una aplicación android',
+        titulo: 'Componentes de una aplicación <em>android</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -239,7 +239,7 @@ export default {
     },
     {
       texto:
-        'Peñalba, I. (2021). Hacer aplicaciones para Android: ¿Qué es un entorno de desarrollo y cuál es el mejor? El español. ',
+        'Peñalba, I. (2021). Hacer aplicaciones para <em>Android</em>: ¿Qué es un entorno de desarrollo y cuál es el mejor? El español. ',
       tipo: 'Página',
       link:
         'https://www.elespanol.com/elandroidelibre/20200518/hacer-aplicaciones-android-entorno-desarrollo-mejor/490952339_0.html',
@@ -253,7 +253,7 @@ export default {
     },
     {
       texto:
-        'Android Studio v1.0: características y comparativa con Eclipse – Academia Android. (2021, June 26).',
+        '<em>Android Studio</em> v1.0: características y comparativa con Eclipse – Academia <em>Android</em>. (2021, June 26).',
       tipo: 'Página',
       link:
         'https://academiaandroid.com/android-studio-v1-caracteristicas-comparativa-eclipse/',
@@ -267,31 +267,31 @@ export default {
     },
     {
       texto:
-        'Arquitectura de la plataforma | Desarrolladores de Android. (2020, May 07).',
+        'Arquitectura de la plataforma | Desarrolladores de <em>Android</em>. (2020, May 07).',
       tipo: 'Página Oficial',
       link: 'https://developer.android.com/guide/platform?hl=es-419',
     },
     {
       texto:
-        'El origen de Android (Características y Costos) – Fredy Olmos. (2020, October 21). Retrieved from https://fredyolmos.com/ciencia-y-tecnologia/el-origen-de-android-costos-caracteristicas',
+        'El origen de <em>Android</em> (Características y Costos) – Fredy Olmos. (2020, October 21). Retrieved from https://fredyolmos.com/ciencia-y-tecnologia/el-origen-de-android-costos-caracteristicas',
       tipo: 'Página',
       link: 'https://www.adslzone.net/reportajes/software/que-es-android',
     },
     {
       texto:
-        'Archivos de descarga de Android Studio | Desarrolladores de Android. (2021, June 14).',
+        'Archivos de descarga de <em>Android Studio</em> | Desarrolladores de <em>Android</em>. (2021, June 14).',
       tipo: 'Página',
       link: 'https://developer.android.com/studio/archive?hl=es-419',
     },
     {
       texto:
-        'Cómo instalar Android Studio | Desarrolladores de Android. (2020, December 21). ',
+        'Cómo instalar <em>Android Studio</em> | Desarrolladores de <em>Android</em>. (2020, December 21). ',
       tipo: 'Página Oficial',
       link: 'https://developer.android.com/studio/install?hl=es-419',
     },
     {
       texto:
-        'Aspectos fundamentales de la aplicación | Desarrolladores de Android. (2020, October 07).',
+        'Aspectos fundamentales de la aplicación | Desarrolladores de <em>Android</em>. (2020, October 07).',
       tipo: 'Página Oficial',
       link:
         'https://developer.android.com/guide/components/fundamentals?hl=es-419',

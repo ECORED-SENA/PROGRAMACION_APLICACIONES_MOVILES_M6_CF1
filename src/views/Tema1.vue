@@ -71,11 +71,11 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  h3.mb-1 Metodología ágil XP
-                  p.text-small.p-0 A continuación, puede ampliar información sobre la metodología ágil XP. Video sobre ciclo de vida XP, prácticas básicas de XP:
+                  h2.mb-1 Metodología ágil XP
+                  p.font-16.p-0 A continuación, puede ampliar información sobre la metodología ágil XP. Video sobre ciclo de vida XP, prácticas básicas de XP:
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=tCl33R9jHBk" target="_blank")
-                    span.text-small Enlace web
+                    span.font-16 Enlace web
                     i.fas.fa-link
     figure.mt-5
       .video
@@ -190,11 +190,11 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  h3.mb-1 Metodología Mobile-D
-                  p.text-small.p-0 A continuación, puede ampliar información sobre la metodología Mobile-D. Video sobre Metodologías de Desarrollo de Software Mobile-D
+                  h2.mb-1 Metodología Mobile-D
+                  p.font-16.p-0 A continuación, puede ampliar información sobre la metodología Mobile-D. Video sobre Metodologías de Desarrollo de Software Mobile-D
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=I3yMHHgQCEk" target="_blank")
-                    span.text-small Enlace web
+                    span.font-16 Enlace web
                     i.fas.fa-link
 
 

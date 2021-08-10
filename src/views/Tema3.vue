@@ -62,11 +62,11 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Visual Studio
-                  p.text-small.p-0.m-0 A continuación, puede ampliar información sobre <i>ID</i> de <i>Visual Studio</i>, para esto le invitamos a visitar la página:
+                  h2.mb-1 Visual Studio
+                  p.font-16.p-0.m-0 A continuación, puede ampliar información sobre <i>ID</i> de <i>Visual Studio</i>, para esto le invitamos a visitar la página:
                 .col-sm-auto
                   a.boton.color-primario(href="https://docs.microsoft.com/es-es/visualstudio/get-started/visual-studio-ide" target="_blank")
-                    span.text-small Enlace web
+                    span.font-16 Enlace web
                     i.fas.fa-link
     p.mt-2 El desarrollo de aplicaciones para móviles se ha convertido en una necesidad debido a la gran utilización y evolución de estas plataformas. Por esta razón es importante definir cuáles serán las tecnologías más adecuadas para la programación de móviles. Una de las arquitecturas más implantadas es la proporcionada por el sistema <i>Android</i>.
     .h4.mt-5 Plataforma Android
@@ -349,11 +349,11 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Android Studio
-                  p.text-small.p-0.m-0 A continuación, puede ampliar información sobre <i>Android Studio</i>, para esto le invitamos a visitar la página:
+                  h2.mb-1 Android Studio
+                  p.font-16.p-0.m-0 A continuación, puede ampliar información sobre <i>Android Studio</i>, para esto le invitamos a visitar la página:
                 .col-sm-auto
                   a.boton.color-primario(href="https://developer.android.com/studio/archive?hl=es-419" target="_blank")
-                    span.text-small Enlace web
+                    span.font-16 Enlace web
                     i.fas.fa-link
 </template>
 
