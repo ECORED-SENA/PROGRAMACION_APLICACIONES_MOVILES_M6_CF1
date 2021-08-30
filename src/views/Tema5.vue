@@ -40,7 +40,7 @@
             figure.borde-gris-der
               img(src="@/assets/template/tema-5-4.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
           .col-12.col-lg-9.align-self-center.px-4
-            p.m-0 Un proveedor de contenidos <i>(content provider)</i> es el mecanismo que se ha definido en <i>Android</i> para compartir datos entre aplicaciones. Mediante estos componentes es posible compartir determinados datos de nuestra aplicación sin mostrar detalles sobre su almacenamiento interno, su estructura, o su implementación. De la misma forma, nuestra aplicación podrá acceder a los datos de otra a través de los <i>content provider</i> que ésta última haya definido.
+            p.m-0 Un proveedor de contenidos <i>(content provider)</i> es el mecanismo que se ha definido en <i>Android</i> para compartir datos entre aplicaciones. Mediante estos componentes es posible compartir determinados datos de nuestra aplicación sin mostrar detalles sobre su almacenamiento interno, su estructura, o su implementación. De la misma forma, nuestra aplicación podrá acceder a los datos de otra a través de los <i>content provider</i> que esta última haya definido.
     .titulo-segundo.mt-5
       #t_5_4.h4 5.4  Receptores de emisiones
     .row.mt-5

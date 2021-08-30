@@ -158,7 +158,7 @@ export default {
     },
     {
       referencia:
-        'Amaya Balafuera, Y. D. (2015). Metodologías ágiles en el desarrollo de aplicaciones para dispositivos móviles. Estado actual. Revista de tecnología, 12 (2).',
+        'Amaya Balafuera, Y. D. (2015). Metodologías ágiles en el desarrollo de aplicaciones para dispositivos móviles. Estado actual. Revista de tecnología, 12 (2). ',
       link: 'https://doi.org/10.18270/rt.v12i2.1291',
     },
     {

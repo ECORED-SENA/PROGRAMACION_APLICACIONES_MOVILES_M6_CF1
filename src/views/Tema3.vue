@@ -100,7 +100,7 @@
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 .h3 Versiones 
-                p.font-16 <i>Android</i> maneja muchas versiones desde su lanzamiento y se encuentran numerosas actualizaciones. Cada que sale una nueva versión se arreglan fallos detectados en la anteriores incluyendo también nuevas funcionalidades con soportes para las nuevas tecnologías.
+                p.font-16 <i>Android</i> maneja muchas versiones desde su lanzamiento y se encuentran numerosas actualizaciones. Cada que sale una nueva versión se arreglan fallos detectados en las anteriores incluyendo también nuevas funcionalidades con soportes para las nuevas tecnologías.
     p.mt-5 Curiosamente las versiones de <i>Android</i> reciben el nombre de postres o dulces cuyo nombre va en orden alfabético que se mantuvo hasta la versión 9, como se ve a continuación:
     .titulo-sexto.color-acento-botones
       h5 Tabla 2
@@ -214,7 +214,7 @@
       .col-10.offset-1.mt-5
         LineaTiempoD.color-primario
           p.font-16(numero="1" titulo="System Apps") (<i>Apss</i> del sistema) las <i>apps</i> del sistema permiten a los desarrolladores acceder desde sus propias <i>apps</i> con solo invocarlas sin necesidad de compilar las funcionalidades de las aplicaciones.
-          p.font-16(numero="2" titulo="Java Api Framework ") (Marco de trabajo de la <i>API</i> de <i>Java</i>) Las <i>API</i> que permiten la disponibilidad a las funciones del sistema operativo de <i>Android</i> están escritas en el lenguaje <i>Java</i>, estas <i>API</i> son la base que se requieren para crear <i>apps</i> de <i>Android</i> haciendo más sencilla la reutilización de componentes del sistema y servicios como: Sistemas de vista (compilar <i>IU</i>) administrador de recursos (acceso a <i>Strings</i>, gráficos. etc.) administrador de notificaciones (alertas personalizadas) administrador de actividad (ciclo de vida) proveedores de contenido (acceso de otras <i>apps</i>).
+          p.font-16(numero="2" titulo="Java Api Framework ") (Marco de trabajo de la <i>API</i> de <i>Java</i>) Las <i>API</i> que permiten la disponibilidad a las funciones del sistema operativo de <i>Android</i> están escritas en el lenguaje <i>Java</i>, estas <i>API</i> son la base que se requieren para crear <i>apps</i> de <i>Android</i> haciendo más sencilla la reutilización de componentes del sistema y servicios como: Sistemas de vista (compilar <i>IU</i>) administrador de recursos (acceso a <i>Strings</i>, gráficos, etc.) administrador de notificaciones (alertas personalizadas) administrador de actividad (ciclo de vida) proveedores de contenido (acceso de otras <i>apps</i>).
           p.font-16(numero="3" titulo="Nativa C/C + + Libraries ") (Bibliotecas nativas) son librerías que se basan en código nativo.
           p.font-16(numero="4" titulo="Hardware Abstraction Layer HAL ") (Capa de abstracción de <i>hardware</i> HAL) ofrecen interfaces que muestran las capacidades del <i>hardware</i> del dispositivo, la <i>HAL</i> consiste en un conjunto de módulos de bibliotecas los cuales implementan una interfaz para cada tipo específico de <i>hardware</i>, como por ejemplo cuando se realiza un llamado a la cámara del dispositivo el sistema carga la biblioteca para este componente de <i>hardware</i>.
           p.font-16(numero="5" titulo="Linux Kernel ") (<i>Kernel</i> de Linux) Es la base de la plataforma, es necesaria para las funcionalidades subyacentes como la administración de memoria de bajo nivel y la generación de subprocesos.
@@ -284,7 +284,7 @@
       #t_3_3.h4 3.3  Arquitectura de una aplicación en Android
     .row.mt-4
       .col-12.col-lg-8
-        p Cada componente solo depende del componente que está un nivel más abajo. Por ejemplo, las actividades y los fragmentos sólo dependen de un modelo de vista. El repositorio es la única clase que depende de otras clases. En este ejemplo, el repositorio depende de un modelo de datos persistente y de una fuente de datos de <i>backend</i> remota.
+        p Cada componente solo depende del componente que está un nivel más abajo. Por ejemplo, las actividades y los fragmentos solo dependen de un modelo de vista. El repositorio es la única clase que depende de otras clases. En este ejemplo, el repositorio depende de un modelo de datos persistente y de una fuente de datos de <i>backend</i> remota.
         p.mt-3 Este diseño crea una experiencia del usuario consistente y agradable. Independientemente de que el usuario vuelva a la <i>app</i> varios minutos después de cerrarla por última vez o varios días más tarde, verá al instante la información del usuario de que la <i>app</i> persiste a nivel local. Si estos datos están inactivos, el módulo de repositorio comienza a actualizar los datos en segundo plano.
       .col-6.col-lg-4.offset-3.offset-lg-0
         figure

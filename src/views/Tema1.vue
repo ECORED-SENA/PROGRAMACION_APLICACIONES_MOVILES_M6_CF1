@@ -134,14 +134,13 @@
                 img(src="@/assets/template/tema-1-10.svg", alt="Texto que describa la imagen")
             .col-12.col-lg-10
               .h4.mb-0 Test Driven Development (TDD)
-              p #[strong Según Astel (2003) ] ”El Test Driven Development, es un tipo de desarrollo donde se mantiene un exhaustivo juego de pruebas del programador, su objetivo principal es que ninguna parte del código pase a producción sin realizar antes las pruebas asociadas y tener la aprobación”.
+              p #[strong Según Astel (2003) ] "El Test Driven Development, es un tipo de desarrollo donde se mantiene un exhaustivo juego de pruebas del programador, su objetivo principal es que ninguna parte del código pase a producción sin realizar antes las pruebas asociadas y tener la aprobación".
               p.mt-3 Se trata de un desarrollo orientado a las pruebas, donde cambia la mentalidad del equipo de desarrollo agilizando los resultados y aumentando la calidad del producto.
               p.mt-3 La tendencia actual es integrar TDD a cualquier metodología ya sea ágil (<i>Scrum</i> Alliance - TDD and Scrum, 2011) o tradicional (Letelier et al., s. f.), y aprovechar los beneficios de practicar una metodología que siempre permite deshacer los errores, asegurar una calidad del producto y protegerse de errores tanto malintencionados como humanos.
         .h4.mt-5 Figura 3
         p <i>Test Driven</i> (TDD)
         figure.mt-4
           img(src="@/assets/template/tema-1-11.png", alt="Texto que describa la imagen")
-          figcaption.mt-3 Referencia Nota. https://bit.ly/3waI6hg
         .cajon.color-acento-botones.p-4.mt-5.bg-acento-botones-op50
           .row
             .col-2.d-none.d-lg-block

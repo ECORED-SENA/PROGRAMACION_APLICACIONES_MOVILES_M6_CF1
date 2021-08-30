@@ -9,7 +9,7 @@
       h1 Instalación y Configuración Entorno <i>Android Studio</i>
     figure.mt-4 
       img(src="@/assets/template/tema-4-1.png", alt="Texto que describa la imagen")
-    p.mt-5 Para la instalación lo primero que debemos tener en cuenta son los requisitos mínimos que debe tener el equipo. Para un mejor rendimiento, y que el emulador funcione correctamente, se necesita un buen equipo de trabajo que cuente con las siguientes propiedades recomendadas para cada sistema operativo..
+    p.mt-5 Para la instalación lo primero que debemos tener en cuenta son los requisitos mínimos que debe tener el equipo. Para un mejor rendimiento, y que el emulador funcione correctamente, se necesita un buen equipo de trabajo que cuente con las siguientes propiedades recomendadas para cada sistema operativo.
     .row.mt-5
       .col-10.offset-1
         .h4 Figura 12
@@ -79,7 +79,7 @@
                   .lista-ol--cuadro__vineta.primario
                     span 1
                   .h4.m-0 Descargar e instalar Android Studio
-                    p.m-0 Ingresa a la página oficial <i>Android developers</i> y selecciona la opción <i>Android Studio</i> o sigue el siguiente enlace:
+                    p.m-0 Ingresa a la página oficial <i>Android developers</i> y selecciona la opción <i>Android Studio</i> o ingresa al siguiente enlace:
                 a.anexo.mb-lg-0(href="https://developer.android.com/studio?hl=es-419" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
