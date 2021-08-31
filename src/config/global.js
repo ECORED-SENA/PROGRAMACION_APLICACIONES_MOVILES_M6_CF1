@@ -219,12 +219,6 @@ export default {
     },
     {
       texto:
-        'Montoya, J. L. (2021, April 15). Exposición Metodologías de Desarrollo de Software | Mobile-D | Fundamentos de Ingeniería de Software.',
-      tipo: 'Video ',
-      link: 'https://www.youtube.com/watch?v=I3yMHHgQCEk',
-    },
-    {
-      texto:
         'Axarnet. (2021, June 25). Plataformas de desarrollo de aplicaciones móviles| Axarnet.',
       tipo: 'Página',
       link:
@@ -275,7 +269,8 @@ export default {
       texto:
         'El origen de <em>Android</em> (Características y Costos) – Fredy Olmos. (2020, October 21). Retrieved from https://fredyolmos.com/ciencia-y-tecnologia/el-origen-de-android-costos-caracteristicas',
       tipo: 'Página',
-      link: 'https://www.adslzone.net/reportajes/software/que-es-android',
+      link:
+        'https://fredyolmos.com/ciencia-y-tecnologia/el-origen-de-android-costos-caracteristicas',
     },
     {
       texto:

@@ -79,7 +79,7 @@
                     i.fas.fa-link
     figure.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/9MaFAIVuGVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/yGtQE5dNdnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mt-5 
       .col-10.offset-1
         .cajon.color-acento-botones.p-4.mb-4.bg-acento-botones-op50
@@ -180,21 +180,7 @@
             p.font-16 Es la fase donde se realiza la integración y se verifica el correcto funcionamiento del sistema y la calidad del <i>desarrollo</i>, también se realiza la documentación del proyecto. 
           .row(numero="5" titulo="Pruebas del sistema")
             p.font-16 En esta fase se realiza la verificación del funcionamiento de todos los requerimientos establecidos por el cliente y en el caso de encontrar errores se deben solucionar en esta fase.
-    .row.mt-5
-      .col-10.offset-1
-        .tarjeta.color-primario.p-3.mb-5.bg-azul-degradado
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-2
-              img(src="@/assets/template/tema-1-14.svg").w-75.margin-0-auto
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.text-white
-                  h2.mb-1 Metodología Mobile-D
-                  p.font-16.p-0 A continuación, puede ampliar información sobre la metodología Mobile-D. Video sobre Metodologías de Desarrollo de Software Mobile-D
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=I3yMHHgQCEk" target="_blank")
-                    span.font-16 Enlace web
-                    i.fas.fa-link
+    
 
 
 
